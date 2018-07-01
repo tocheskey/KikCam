@@ -9,7 +9,7 @@
 
 %group setAppID
 %hook KikAPIMessage
-	- (void)setAppID:(id)arg1 {
+    - (void)setAppID:(id)arg1 {
         arg1 = @"com.kik.ext.camera";
         %orig;
     } 
@@ -19,15 +19,15 @@
 %group setCamera
 %hook SettingsOptionUsernameButton
     - (void)cellWasTapped {
-	    %orig;
+	%orig;
 
-	    UIAlertView *alert = [[UIAlertView alloc] 
+	UIAlertView *alert = [[UIAlertView alloc] 
             initWithTitle:@"Camera Spoof Activated" 
             message:@"Images sent from gallery will now be sent as images from the camera.\nIf you want to send them as gallery images again, relaunch the app.\nPLEASE DO NOT CLICK ON USERNAME AGAIN" 
             delegate:self 
             cancelButtonTitle:@"OK" 
             otherButtonTitles:nil];
-	    [alert show];
+	[alert show];
 
    	%init(setAppName);
 	%init(setAppID);
