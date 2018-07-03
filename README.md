@@ -12,7 +12,7 @@ Simply download the provided IPA under [releases](https://github.com/synecx/KikC
 
 **Note**: There is a small bug where the app will throw an error upon logging in for the first time. To fix this, simply click on the "Next" button again at login.
 
-There is another version of the app that allows you to manually activate the spoofing by clicking on your username; by default it sends as gallery images. This way, you can go back and forth between the two. This version is also available under [releases](https://github.com/synecx/KikCam/releases) and you can check out the source in the [feat/switch-camera-gallery](https://github.com/synecx/KikCam/tree/feat/switch-camera-gallery) branch.
+There is another version of the app that allows you to manually activate the spoofing by clicking on your username (**settings icon > Your Account > Kik Username**); by default it sends as gallery images. This way, you can go back and forth between the two. This version is also available under [releases](https://github.com/synecx/KikCam/releases) and you can check out the source in the [feat/switch-camera-gallery](https://github.com/synecx/KikCam/tree/feat/switch-camera-gallery) branch.
 
 ## Want to build your own version?
 
