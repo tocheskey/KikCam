@@ -3,7 +3,7 @@
 Modified version of Kik that makes gallery images seem as if they were taken by the camera.
 
 <p align="center">
-<img src="https://i.imgur.com/Up92KST.jpg" alt="alt text" width="350" height="350">
+<img src="https://i.imgur.com/kkHSCvA.jpg" alt="alt text" width="350" height="250">
 </p>
 
 ## Installation 
